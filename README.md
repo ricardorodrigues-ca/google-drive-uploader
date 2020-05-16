@@ -1,2 +1,2 @@
 # google-drive-uploader
-Uploads given files to your Google Drive
+Uploads any given file(s) and/or folder(s) to your Google Drive
