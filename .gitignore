@@ -1,14 +1,21 @@
 # Ignore Mac system files
 .DS_store
 
-# Ignore app-env.py
+# Ignore Visual Studio Code workspaces
+*.code-workspace
+
+# Ignore any files carrying secrets
 appenv.py
+token.*
+*backup*
+*.dat
+*.json
+*.crt
+*.key
+*.pem
 
-# Ignore token.py, if present
-token.py
-
-# Ignore token.txt
-token.txt
+# Ignore any downloads folder
+*downloads*
 
 # Ignore Python Module Cache
 __pycache__/*
